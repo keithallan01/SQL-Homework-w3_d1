@@ -86,4 +86,4 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
 -- Research how to delete multiple entries from your table in a single command.
 
--- DELETE FROM movies WHERE id = (8, 10, 13)
+-- DELETE FROM movies WHERE id IN (8, 10, 13);
